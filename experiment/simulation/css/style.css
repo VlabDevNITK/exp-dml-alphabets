@@ -1,0 +1,440 @@
+  /*mathstyle.css*/  
+  span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    }
+    span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+    }
+    span.frac > sup {border-bottom: 0.08em solid;}
+    span.frac > span {display: none;}
+        
+        
+    #simscreen
+    {
+        position: relative;
+        left:0px;
+        top:0px;
+        height: 600px; 
+        width:800px;
+        border:solid 1px;
+    }
+    
+    #title{
+        position:relative;
+        left: 0px;
+        top: 0px;
+        height:40px;
+        font-size: 24px;
+        text-align:center;
+        background-color: black;
+        font-family: verdana;
+        color: White;
+        text-transform: uppercase; 
+    }
+    
+    #title h3
+    {
+        padding-top:2px;
+        margin:0px;
+    }	
+    
+    .simsubscreen
+    {
+        position:absolute;
+        left:50px;
+        top:50px;
+        height:530px;
+        width:745px;
+    }
+    
+    .incanvas
+    {
+        margin:5px 0 0 5px;
+        padding:0;
+    }
+    
+    #nextButton
+    {
+        position:absolute;
+        left:750px;
+        top:530px;
+        cursor:pointer;
+    }
+    
+    .circlebg
+    {
+        border-radius:100%;
+        font-size:25px;
+        color:#fff;
+        text-align:center;
+        background:#000
+    }
+    
+    .steptext
+    {
+        display:inline;
+        font-size:14px;
+    }
+    
+    #copyright{
+        position: absolute;
+        left:50px;
+        top: 580px;
+        font-size:12px
+    }
+    
+    /* css */
+    .submit-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px;
+        margin-left: 230px;
+        cursor: pointer;
+    }
+    
+    .para{
+        width: 705px;
+    }
+    
+    #nextButton1
+    {
+        position:absolute;
+        left:320px;
+        top:200px;
+        cursor:pointer;
+    }
+    
+    
+    /* comments */
+    .simsubscreen1
+    {
+        position:absolute;
+        left:50px;
+        top:50px;
+        height:530px;
+        width:745px;
+    }
+    
+    /* .output{
+        border-radius:20%;
+        font-size:25px;
+        color:rgb(0,0,0);
+        text-align:center;
+        background: #efefef;
+        border-style: groove;
+        border-color: black;
+        padding: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    } */
+    
+    .out{
+        border-radius:20%;
+        font-size:25px;
+        font-weight: 500;
+        color:#000000;
+        /* text-align:center; */
+        background: #efefef;
+        border-style: groove;
+        border: 2.5px solid black;
+        /* padding: 8px;
+        padding-left: 13px;
+        padding-right: 13px;
+        margin-left: 90px; */
+        width: 43px;
+        height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+        margin-bottom: -10px;
+        
+    }
+    
+    .select_alpha{
+        text-align: center;
+        margin-right: 100px;
+        margin-bottom: 45px;
+        margin-top: -20px;
+        font-size:14px
+    }
+    
+    .play-button {
+        height: 50px;
+        width: 57px;
+        /* background-color: rgba(0, 0, 0, 0.7); */
+        /* background-color: #efefef; */
+        border-radius: 50%;
+        position: relative;
+        padding: 9px;
+        bottom: 60px;
+        left: 170px;
+        border: 1.5px solid black;
+        margin-top: 20px;
+        cursor: pointer;
+        
+      }
+      
+    
+      .play-button:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        margin: 0 auto;
+        border-style: solid;
+        border-width: 9.5px 0 9.5px 17px;
+        border-color: transparent transparent transparent #000;
+      }
+    
+    
+      .out1{
+        
+        font-size:40px;
+        color:#000000;
+        text-align:center;
+        
+      }
+    
+      
+      /* button:hover {
+       opacity: 0.7;
+      } */
+      
+      .hidden {
+        display: none;
+      }
+    
+      .play{
+        bottom: 15px;
+        padding-bottom: 100px;
+      }
+      
+      #btn2-text{
+        margin: -25px 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: red;
+        margin-left: 100px;
+        
+      }
+    
+      .morse-value{
+        top: 200px;
+        margin-left: 310px;
+        margin-top: -135px;
+      }
+    
+      
+    .out2{
+        font-size:45px;
+        color:#000000;
+        text-align:center;
+        font-weight: 600;
+        vertical-align: middle;
+        padding: 4px;
+        justify-content: space-between;
+        font-family: monospace; /* Use a monospace font for consistent spacing */
+        letter-spacing: 0.2em;
+        width: 300px;
+        margin-left: 75px;
+        position: relative;
+        top: -10px;
+        
+        
+    }
+    
+    .message{
+        margin-left: 280px;
+        margin-top: 20px;
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+        
+        
+    }
+    
+    
+    .dot {
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 5px;
+        opacity: 0;
+      }
+    
+      .dash {
+        width: 60px;
+        height: 20px;
+        background-color: black;
+        margin: 5px;
+        opacity: 0;
+      }
+    
+      .hint-btn{
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-radius: 15px;
+        margin: 15px;
+        margin-left: 265px;
+        cursor: pointer;
+        opacity: 0.7s;
+        margin-top: 30px;
+        
+        
+      }
+    
+     #image{
+        height: 100px;
+        width: 100px;
+        bottom: 300px;
+     }
+    
+    
+    
+    .alphasel{
+        left: 30px;
+        padding-left: 160px;
+        font-size:14px
+        
+    }
+    
+    .place{
+        width: 60px;
+    }
+    
+    .errorText2{
+        margin-left: -41px;
+    }
+    
+    #hintButton{
+        margin-bottom: 27px;
+        bottom: 10px;
+    }
+    
+    .outputName{
+        font-size:18px;
+        color:#000000;
+        text-align:center;
+        font-weight: 600;
+        margin-left:80px;
+        margin-top: 20px;
+    
+    }
+    
+    #btn2{
+        padding: -25px;
+        margin-top: 20px;
+    }
+    
+    .mainCenter{
+        margin-left: 120px;
+        margin-top: 30px;
+        padding: 8px;
+        
+    }
+    
+    #resetButton{
+        position: absolute;
+        left: 40%; /* Adjust the right distance as needed */
+        top: 480px;
+        background-color: #fff;
+        border-radius: 10px;
+        width: 30px;
+        height: 20px;
+    
+        
+    }
+    
+    .resImg {
+        position: relative; /* Change to relative positioning */
+        display: block; /* Add this to center the image */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+    
+    
+    h5{
+        
+        padding: 3px;
+    }
+    
+    #morseOutput{
+        /* margin-left: 6px; */
+        position: relative;
+        top: -6px;
+        font-size: 45px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: black;
+        
+        
+        /* background-color: red; */
+    
+    }
+    
+    
+    
+    
+    
+    .morse-char-initial {
+        font-size: 20px; /* Set the initial font size to 20px */
+        font-weight: bold;
+        /* Other initial styling */
+        margin-right: 0.2em; /* Add some spacing between characters */
+      }
+    
+    .morse-dot {
+        font-size: 15px; /* Adjust the dot size as needed */
+    }
+    
+    .morse-dash {
+        font-size: 15px; /* Adjust the dash size as needed */
+        font-weight: normal; /* Reset font weight to normal */
+    }
+    
+    
+    .size{
+        cursor: pointer;
+        /* background: #efefef; */
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .square-box {
+        width: 48px; /* Adjust the width of the square box */
+        height: 45px; /* Adjust the height of the square box */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black; /* Add a border to the square box */
+        background: #efefef;
+        border-radius: 50%;
+        margin-top: -25px;
+        margin-left: -18px;
+        padding: 3px;
+        padding-bottom: 5px;
+      }
+    
+    .repeatText{
+        color: black;
+        font-size: 8px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-left: -3px;
+        padding-top: 1px;
+        cursor: pointer;
+    }
+    /* .material-icons{
+        display: none;
+    } */
+    
+    
