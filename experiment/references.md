@@ -6,13 +6,13 @@
   <tr style="background-color: transparent;">
   <td>
     1. Hossell, K. P. (2003). Morse code (1st ed., pp. 8, 10, 39). Heinemann/Raintree (1 March 2003).</br></br>
-    2. Morse code translator. Morse Code Translator | Morse Code World. (n.d.) <a href="https://morsecode.world/international/translator.html"> Morse code translator</a>. <br>
+    2. Morse code translator. Morse Code Translator | Morse Code World. (n.d.) <a href="https://morsecode.world/international/translator.html"> Morse code translator</a>. <br></br>
     3. <a href="https://www.niar.org/downloads/Study-Manual-Restricted-Grade-22.pdf">Study Manual Restricted Grade 22</a>.</td>
     <td>Developer : Dr. Pruthviraj U | NITK</br></br>
     Contributors :
     <ul style="list-style-type: none;">
       <li>Prajwal | NITK</li>
-      <li>shradha shetty | NITK</li>
+      <li>Shradha Shetty | NITK</li>
     </ul></td>
   </tr>
 </table>
