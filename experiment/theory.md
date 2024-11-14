@@ -1,42 +1,56 @@
-<div style="text-align:justify;">The International Morse code is the most widely used version of the several variations of Morse code. All 26 English letters have equivalents in the Morse code alphabet. This code designates each letter of the alphabet with a set of dots and dashes. One may write the alphabet in Morse code by understanding which combinations of dots and dashes correspond to each letter of the alphabet.
+### Introduction
 
-English letters can also be communicated via radio, telegraphy, or even visual signalling with light. By international morse code standardizing communication across boundaries is guaranteed to be efficient and widely understood.It is both an example of the creative potential of people and a representation of our ongoing efforts to improve and simplify communication. The Morse code alphabet has demonstrated its enduring usefulness and continues to serve as a link between communication technology's past, present, and future.
+<div style="text-align:justify;">The International Morse code, a widely recognized variation of Morse code, serves as a prime example of human ingenuity in simplifying communication. It encodes the basic Latin alphabet, additional Latin characters, Arabic numerals, and a small set of punctuation using standardised sequences of short and long signals "dots" (or "dits") and "dashes" (or "dahs"): a dash's duration is three times that of a dot. Each character, comprising letters, numbers, and some punctuation, is represented by a unique sequence of dots and dashes. Each dot or dash is followed by a short silence of equal duration to a dot. Words are separated by a space of three dots (one dash) between their letters and seven dots between their words. The fundamental unit of time measurement used in code transmission is the dot duration.</div>
 
-One of the most remarkable qualities of the Morse code alphabet is its ability to transcend language barriers. Unlike many written languages that distinguish between upper and lower case letters, Morse Code does not distinguish between upper and lower case letters. The system was designed to be case-insensitive, which means the same Morse code representations are used for both uppercase and lowercase letters. This feature enhances its practicality, making it a universal communication system that can be easily understood and transmitted by people of various linguistic backgrounds. Whether you're communicating vital information or simply decoding a message, this characteristic of Morse code simplifies the process, allowing individuals to focus on the content of the message rather than the complexities of case sensitivity.
+<div style="text-align:justify;">The Morse code alphabet assigns a unique sequence of dots and dashes to each letter of the English alphabet (A-Z). The Morse code alphabet was designed to be easily transmitted and received using simple on-off signals, such as flashes of light or clicks of a telegraph key. The code was structured to assign shorter sequences to the most commonly used letters (e.g., E is a single dot, T is a single dash) to improve transmission efficiency. Less common letters were assigned longer sequences (e.g., Q is --.-).</div>
 
-In the International Morse Code, each letter of the English alphabet is uniquely represented by a specific sequence of dots and dashes. These names provide a creative way to remember each Morse code letter and make learning Morse code more engaging. These sequences of dots and dashes are thoughtfully designed to minimize ambiguity and ensure clear and efficient communication in Morse code.
+### Principles of Morse Code
 
-<center>
+<div style="text-align:justify;">The Morse code alphabet follows a few underlying principles, such as the use of shorter sequences for more frequent characters, the alternation of dots and dashes, and the avoidance of ambiguity between letters. The code was designed to be easily memorized and understood.</div>
 
-| Alphabet | Morse Code | Names       |
-| :------: | :--------: | ----------- |
-|    A     |    ".-"    | Archery     |
-|    B     |   "-..."   | Banjo       |
-|    C     |   "-.-."   | Candy       |
-|    D     |   "-.."    | Dog         |
-|    E     |    "."     | Eye         |
-|    F     |   "..-."   | Firetruck   |
-|    G     |   "--."    | Giraffe     |
-|    H     |   "...."   | Hippo       |
-|    I     |    ".."    | Insect      |
-|    J     |   ".---"   | Jet         |
-|    K     |   "-.-"    | Kite        |
-|    L     |   ".-.."   | Laboratory  |
-|    M     |    "--"    | Mustache    |
-|    N     |    "-."    | Net         |
-|    O     |   "---"    | Orchestra   |
-|    P     |   ".--."   | Paddle      |
-|    Q     |   "--.-"   | Quarterback |
-|    R     |   ".-."    | Robot       |
-|    S     |   "..."    | Submarine   |
-|    T     |    "-"     | Tape        |
-|    U     |   "..-"    | Unicorn     |
-|    V     |   "...-"   | Vacuum      |
-|    W     |   ".--"    | Wand        |
-|    X     |   "-..-"   | X-ray       |
-|    Y     |   "-.--"   | Yard        |
-|    Z     |   "--.."   | Zebra       |
+<div style="text-align:justify;">One of Morse code's most remarkable features is its ability to transcend language barriers. Unlike written languages with case-sensitive alphabets, Morse code treats all letters equally, making it case-insensitive. This characteristic fosters practicality, allowing Morse code to serve as a universal system readily understood and transmitted by individuals with diverse linguistic backgrounds. Whether transmitting critical information or deciphering a message, this case-insensitivity simplifies the process, allowing users to focus on the content rather than concerning themselves with case intricacies.</div>
 
-</center>
+<div style="text-align:justify;">The original Morse code, developed by Samuel F.B. Morse in the 1830s, underwent several revisions and standardizations over time.</div>
 
-Morse code alphabets, with their precise sequences of dots and dashes, serve as the fundamental building blocks of this enduring system of communication.This timeless language of dots and dashes has transcended technological advancements, remaining a symbol of human ingenuity in the realm of telecommunications. As Morse code continues to find applications in various domains, its alphabets remain at the heart of its linguistic prowess, connecting individuals across time and space.</div>
+<div style="text-align:justify;">Different versions of the Morse code alphabet exist for different languages and applications, such as the American Morse code, the Continental Morse code, and the International Morse code.</div>
+
+<div style="text-align:justify;">While the basic principles remain the same, the specific sequences assigned to characters may vary slightly across different versions.</div>
+
+### Morse Code Alphabet Table
+
+| Alphabet | Morse Code |
+| :------: | :--------: |
+|    A     |    ".-"    |
+|    B     |   "-..."   |
+|    C     |   "-.-."   |
+|    D     |   "-.."    |
+|    E     |    "."     |
+|    F     |   "..-."   |
+|    G     |   "--."    |
+|    H     |   "...."   |
+|    I     |    ".."    |
+|    J     |   ".---"   |
+|    K     |   "-.-"    |
+|    L     |   ".-.."   |
+|    M     |    "--"    |
+|    N     |    "-."    |
+|    O     |   "---"    |
+|    P     |   ".--."   |
+|    Q     |   "--.-"   |
+|    R     |   ".-."    |
+|    S     |   "..."    |
+|    T     |    "-"     |
+|    U     |   "..-"    |
+|    V     |   "...-"   |
+|    W     |   ".--"    |
+|    X     |   "-..-"   |
+|    Y     |   "-.--"   |
+|    Z     |   "--.."   |
+
+### Historical and Modern Uses of Morse Code
+
+<div style="text-align:justify;">Morse code was widely used in telegraphy, radio communication, and maritime communication before the advent of more modern digital communication methods.</div>
+
+<div style="text-align:justify;">It remains in use today by amateur radio enthusiasts, in aviation, and in some emergency communication scenarios due to its simplicity and reliability.</div>
+
+<div style="text-align:justify;">The Morse code alphabet has also been utilized in various artistic and creative forms, such as music, literature, and visual arts.</div>

@@ -292,6 +292,23 @@
       "difficulty": "Advanced"
     },
     {
+      "question": "What is the Morse code for the combination 'SOS'?",
+      "answers": {
+        "a": "... --- ...",
+        "b": "... --- --",
+        "c": "... -- ...",
+        "d": "... --- .--"
+      },
+      "explanations": {
+        "a": "This is correct. 'SOS' in Morse code is '... --- ...'.",
+        "b": "This is incorrect. 'SOS' is not '... --- --'.",
+        "c": "This is incorrect. 'SOS' does not have '--' in the middle.",
+        "d": "This is incorrect. 'SOS' does not end with '.--'."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
       "question": " In the International Morse Code, what character is represented by '--.-'?",
       "answers": {
         "a": "J",
@@ -341,6 +358,72 @@
       },
       "correctAnswer": "c",
       "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse code for the combination 'SOS'?",
+      "answers": {
+        "a": "... --- ...",
+        "b": "... --- --",
+        "c": "... -- ...",
+        "d": "... --- .--"
+      },
+      "explanations": {
+        "a": "This is correct. 'SOS' in Morse code is '... --- ...'.",
+        "b": "This is incorrect. 'SOS' is not '... --- --'.",
+        "c": "This is incorrect. 'SOS' does not have '--' in the middle.",
+        "d": "This is incorrect. 'SOS' does not end with '.--'."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What word is represented by the Morse code sequence '.... ..'?",
+      "answers": {
+        "a": "HI",
+        "b": "HELLO",
+        "c": "HEY",
+        "d": "HI THERE"
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "a": "This is correct. '.... ..' represents 'HI' in Morse code.",
+        "b": "This is incorrect. '.... ..' is not 'HELLO'.",
+        "c": "This is incorrect. '.... ..' is not 'HEY'.",
+        "d": "This is incorrect. '.... ..' is not 'HI THERE'."
+      }
+    },
+    {
+      "question": "What is the Morse code sequence for 'HELLO'?",
+      "answers": {
+        "a": ".... . .-.. .-.. ---",
+        "b": ".... . .-.. .-.. ---",
+        "c": ".... . .-.. .-.. --- -",
+        "d": ".... . .-.. .-.. --"
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "a": "This is correct. 'HELLO' in Morse code is '.... . .-.. .-.. ---'.",
+        "b": "This is the same as option 'a' and is correct. 'HELLO' is '.... . .-.. .-.. ---'.",
+        "c": "This is incorrect. 'HELLO' does not end with a '-'.",
+        "d": "This is incorrect. 'HELLO' does not end with '--'."
+      }
+    },
+    {
+      "question": "How is 'GOOD' represented in Morse code?",
+      "answers": {
+        "a": "--. --- --- -..",
+        "b": "--. --- --- --.",
+        "c": "--. --- --- -",
+        "d": "--. --- --- .-.."
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "a": "This is correct. 'GOOD' in Morse code is '--. --- --- -..'.",
+        "b": "This is incorrect. 'GOOD' does not end with '--.'.",
+        "c": "This is incorrect. 'GOOD' ends with '-..', not '-'.",
+        "d": "This is incorrect. 'GOOD' does not include '.-..'."
+      }
     }
+
   ]
 }

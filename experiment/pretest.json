@@ -92,18 +92,18 @@
       "difficulty": "Beginner"
     },   
     {
-      "question": "To write the English alphabet in Morse code, what do you need to understand?",
+      "question": "What is the basic principle behind assigning sequences in the Morse code alphabet?",
       "answers": {
-        "a": "Phonetic pronunciation of each letter",
-        "b": "Combinations of dots and dashes that correspond to each letter ",
-        "c": "The order of letters in the alphabet ",
-        "d": "The number of syllables in each word"
+        "a": "Shorter sequences for less common letters.",
+        "b": " Shorter sequences for more common letters.",
+        "c": "Longer sequences for vowels  ",
+        "d": "Random assignment of sequences "
       },
       "explanations": {
-        "a": "Understanding phonetics is not necessary for Morse code",
-        "b": "Combinations of dots and dashes respect to each letter for writing the English alphabet in Morse code.",
-        "c": "Alphabetical order is not directly relevant to Morse code",
-        "d": "Syllable count doesn't relate to Morse code"
+        "a": "This is incorrect. In Morse code, shorter sequences are assigned to more common letters, not less common ones. This helps improve efficiency and speed of communication.",
+        "b": "The basic principle behind assigning sequences in Morse code is that shorter sequences are assigned to more common letters, like 'E' and 'T', to make communication faster and more efficient.",
+        "c": "This is incorrect. While vowels can be common, the length of sequences in Morse code is not specifically longer for vowels. The assignment is based on letter frequency.",
+        "d": "This is incorrect. The assignment of sequences in Morse code is not random. It is carefully designed so that more common letters have shorter sequences."
       },
     
       "correctAnswer": "b",
@@ -182,7 +182,7 @@
       "difficulty": "Intermediate"
     },
     {
-      "question": "What is one of the most remarkable qualities of the Morse code alphabet, as mentioned in the sentence?",
+      "question": "What is one of the most remarkable qualities of the Morse code alphabet as mentioned in the sentence?",
       "answers": {
         "a": "Its efficiency in saving paper",
         "b": "Its ability to encode numbers",
@@ -244,13 +244,13 @@
         "d": "Its ability to create complex abstract patterns"
       },
       "explanations": {
-        "a": "Color is not a feature of Morse code.",
-        "b": "Speed is not specifically mentioned as the underscored feature.",
-        "c": "The elegance of Morse code is underscored by its adaptability to various communication mediums.",
-        "d": "Creating complex abstract patterns is not a primary function of Morse code."
+        "a": "This is incorrect. Morse code does not use color for signaling; it primarily uses dots and dashes (or short and long signals) to convey messages.",
+        "b": "This is correct. The elegance of Morse code lies in its ability to transmit messages quickly and efficiently due to its concise and systematic use of dots and dashes.",
+        "c": "While Morse code is adaptable to various communication mediums, this feature is not the primary focus of its elegance. The speed and efficiency of transmission are more central to its design.",
+        "d": "This is incorrect. Morse code does not focus on creating complex abstract patterns; it is designed for simplicity and efficiency in message transmission."
       },
      
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "Advanced"
     }, 
     {
