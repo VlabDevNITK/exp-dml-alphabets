@@ -1,0 +1,179 @@
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  h1 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  #copyright{
+    margin: 0px 20px;
+  
+  }
+  .numberInput{
+    width: 15%;
+  }
+  #morseOutput {
+    grid-column: 1;
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+}
+.main-canvas{
+  height: 100%;
+  width: auto;
+}
+
+.hintColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  height: 155px;
+  padding: 0;
+  margin: 0;
+  
+}
+  /* .simsubscreen
+{
+  margin: 0px ;
+
+} */
+  /* .main-canvas{
+    transform: scale(0.8);
+  } */
+  .morsePlay{
+    grid-template-columns: 1fr;
+   }
+
+
+}
+@media screen and (min-width: 500px) {
+
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    h1 {
+      font-size: 1.6em;
+    }
+    /* .main-canvas{
+      transform: scale(0.7);
+    } */
+     .morsePlay{
+      grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+     }
+      #morseOutput {
+        grid-column: 1;
+        font-size: 60px;
+        font-family: Arial, sans-serif;
+    }
+    .hintColumn {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      gap: 1rem;
+      height: 200px;
+      padding: 20px;
+      
+    }
+    .main-canvas{
+      height: 100%;
+      width: auto;
+    }
+
+
+    
+     /* .numberInput{
+      width: 8%;
+    } */
+  }
+  
+  
+  @media screen and (min-width: 720px) {
+  
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .content {
+      height: 600px;
+      width: 800px;
+      margin: 0 auto;
+    }
+    /* .main-canvas{
+      transform: scale(1);
+    } */
+    .morsePlay{
+      grid-template-columns: 1fr 1fr 1fr;
+     }
+     #morseOutput {
+      grid-column: 1;
+      font-size: 55px;
+      font-family: Arial, sans-serif;
+  }
+  .hintColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    top: 70px;
+    
+  }
+  h1 {
+    font-size: 2em;
+  }
+
+  
+  }
+  
+  
+  @media screen and (min-width: 960px) {
+  
+    body {
+      font-size: 1.25em;
+      /* background-color: rgb(13, 118, 255); */
+    }
+    .content {
+      height: 600px;
+      width: 800px;
+      margin: 0 auto;
+    }
+    .numberInput{
+      width: 8%;
+    }
+    #morseOutput {
+      grid-column: 1;
+      font-size: 65px;
+      letter-spacing: 5px;
+      font-family: Arial, sans-serif;
+  }
+  .hintColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;  
+    position: relative;
+        top: 18px;
+  }
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .main-canvas{
+    height: 600px;
+    width: auto;
+  }
+
+  .incanvas {
+    margin: 5px 0 0 5px;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+/* .main-canvas{
+      transform: scale(1);
+    } */
+  }

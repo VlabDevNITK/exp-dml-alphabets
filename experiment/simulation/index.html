@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLVE</title>
+  <meta name="description" content="A small project to remonstrate media queries and other responsive design patterns.">
+  <meta name="author" content="Rocco P">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/querry.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body class="paintitred">
+
+  <main class="content">
+    <div class="main-heading">
+      <h1>EXPLORING MORSE CODE : ALPHABETS</h1>
+
+    </div>
+    <div class="main-canvas">
+      <div class="simsubscreen" id="canvas0">
+        <div class="grid-page1">
+          <h4 class="incanvas">Objective:</h4>
+          <p class="incanvas" style="font-size:14px;text-align: justify;">To acquire the ability to receive, understand,
+            and accurately decode Morse code transmissions of alphabets.</p>
+          <br />
+
+          <br>
+          <h4 class="incanvas">Description:</h4>
+
+          <p class="incanvas" style="font-size:14px; text-align: justify;">
+            Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that
+            can be directly understood by a skilled listener or observer without special equipment.
+            it is a system of dots and dashes that can be used to send messages over long distances. It was originally
+            used by telegraph operators to send messages using electrical pulses. Radio communicators later adapted the
+            code to use it as an auditory language.
+            <br>
+            <br>
+            Morse code can be used to send messages using Wires, Radios, Sound, Light. Messages can be sent by Tapping,
+            Drumming, Buzzing, Clicking, or flash light. Morse code is still used today by many ham radio operators.
+            It's a recognized mode of communication in the amateur radio community, and some operators enjoy the
+            challenge and efficiency of using Morse code for long-distance communication. It is also used in emergency
+            signals and in technology to help disabled people communicate.
+            <br>
+            <br>
+            It remains in use today by amateur radio enthusiasts, in aviation, and in some emergency communication
+            scenarios due to its simplicity and reliability.
+          </p>
+
+        </div>
+
+      </div>
+      <div class="simsubscreen" id="canvas1" name="canvas1" style="display: none;">
+        <div>
+
+
+          <strong class="incanvas">STEP:</strong>
+          <p class="steptext">
+            <span class="justify-text">Enter the Alphabets in the inputbox, then click on play button to observe its
+              morse code.</span>
+          </p>
+
+          <br><br><br>
+
+          <div class="div1">
+            <div class="selectmorse">
+              <p class="selectmorse">Enter a Alphabet:</p>
+              <input type="text" id="alphabetInput" placeholder="" class="place" maxlength="2" autocomplete="off"
+                oninput="validateInput()" onchange="handleInputChange()" title="Enter a single alphabet character">
+            </div>
+            <p class="morse" id="numberMorse" hidden></p>
+            <div class="morsePlay">
+              <span class="out "></span>
+              <span class="output" style="display: none;"></span>
+              <button id="playButton" onclick="playMorseSequence()">Play</button>
+
+              <p>
+                <span id="morseOutput" class="out2" class="morse-char-initial" id="morse-output1"></span>
+              </p>
+            </div>
+
+
+            <p class="ad">keep audio on
+            </p>
+            <br>
+            <div class="errorText2">
+              <div id="errorText"></div>
+            </div>
+
+            <div class="hintColumn">
+              <p></p>
+              <button type="button" class="hint-btn" id="hintButton"
+                onclick="displayHintImages();hideHintButton();">HINT TO REMEMBER</button>
+              <div class="imageContent">
+                <span class="outputImg"></span>
+                <div class="nameDiv"></div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div id="nav">
+
+        <img id="nextButton" onclick="navNext()" src="images/Next.png" alt="" /></a>
+
+      </div>
+      <div id="copyright"> &copy; <script>
+          document.write("2023 - ");
+          document.write(new Date().getFullYear());
+        </script> SOLVE - The Virtual Lab @ NITK Surathkal, Department of Water Resources & Ocean Engineering</div>
+    </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
