@@ -2,38 +2,274 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What are the two fundamental elements used in Morse code Alphabets?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Dots and lines",
+        "b": "Dots and squares",
+        "c": "Dashes and lines",
+        "d": "Dots and dashes"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "In Morse code, dots represent short signals (dits), and lines are not used to represent characters.",
+        "b": "Morse code primarily uses dots and dashes, not squares, to represent characters.",
+        "c": "Morse code uses dashes (dahs), it does not use lines to represent characters.",
+        "d": "Morse code is a system of representing letters with sequences of dots and dashes (also known as dits and dahs). In Morse code, dots represent short signals, and dashes represent longer signals. "
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+     
+      "correctAnswer": "d",
+      "difficulty": "Beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the Morse code alphabet primarily used for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sending emails",
+        "b": "Long-distance communication",
+        "c": "Playing music",
+        "d": "Drawing pictures"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Morse code was not developed for sending emails",
+        "b": "Morse code was primarily developed for long-distance communication, such as telegraphy and radio transmission",
+        "c": "Morse code is not used for playing music",
+        "d": "Morse code is not used for drawing pictures"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Is the Morse code alphabet case-sensitive or case-insensitive?",
+      "answers": {
+        "a": "Case-sensitive",
+        "b": "Case-insensitive",
+        "c": "Case-aware",
+        "d": "Case-ambiguous"
+      },
+      "explanations": {
+        "a": "Incorrect. Morse code is case-insensitive, so it treats uppercase and lowercase letters the same",
+        "b": "Morse code is case-insensitive, treating uppercase and lowercase letters equally",
+        "c": "Not applicable. Morse code does not differentiate between cases",
+        "d": "Not a standard term. Morse code is not ambiguous with respect to letter case"
+      },
+    
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the primary system used for encoding English letters in Morse code?",
+      "answers": {
+        "a": "Latin Morse code",
+        "b": "International Morse Code",
+        "c": "Universal Morse code",
+        "d": "Regional Morse code"
+      },
+      "explanations": {
+        "a": "There is no primary system called 'Latin Morse code.'",
+        "b": "The primary system for encoding English letters in Morse code is the International Morse code",
+        "c": "Not a standard term.",
+        "d": "Morse code varies by region, but International Morse code is the most widely used"
+      },
+    
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "How are English letters represented in Morse code?",
+      "answers": {
+        "a": "Through a set of numbers",
+        "b": "With a combination of dots and dashes",
+        "c": "Using colored symbols",
+        "d": "By altering the letter's size"
+      },
+      "explanations": {
+        "a": "English letters in Morse code are not represented by numbers",
+        "b": "English letters in Morse code are represented using combinations of dots and dashes.",
+        "c": "Morse code does not involve colored symbols",
+        "d": "The size of letters is not used to encode them in Morse code"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },   
+    {
+      "question": "What is the basic principle behind assigning sequences in the Morse code alphabet?",
+      "answers": {
+        "a": "Shorter sequences for less common letters.",
+        "b": " Shorter sequences for more common letters.",
+        "c": "Longer sequences for vowels  ",
+        "d": "Random assignment of sequences "
+      },
+      "explanations": {
+        "a": "This is incorrect. In Morse code, shorter sequences are assigned to more common letters, not less common ones. This helps improve efficiency and speed of communication.",
+        "b": "The basic principle behind assigning sequences in Morse code is that shorter sequences are assigned to more common letters, like 'E' and 'T', to make communication faster and more efficient.",
+        "c": "This is incorrect. While vowels can be common, the length of sequences in Morse code is not specifically longer for vowels. The assignment is based on letter frequency.",
+        "d": "This is incorrect. The assignment of sequences in Morse code is not random. It is carefully designed so that more common letters have shorter sequences."
+      },
+    
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },   
+    {
+      "question": "What are the keys to the genius of the Morse code alphabet?",
+      "answers": {
+        "a": "Complexity and ambiguity",
+        "b": "Clarity and simplicity",
+        "c": "Color and variation",
+        "d": "Speed and accuracy"
+      },
+      "explanations": {
+        "a": "Morse code's strength is simplicity, not complexity or ambiguity.",
+        "b": "The genius of Morse code lies in its clarity and simplicity for efficient communication.",
+        "c": "Morse code does not involve color or extensive variation.",
+        "d": "speed and accuracy are not the keys to its genius."
+      },
+    
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },   
+    {
+      "question": "What does the Morse code alphabet represent in the context of communication technology?",
+      "answers": {
+        "a": "Complexity and confusion",
+        "b": "A link between the past and the future",
+        "c": "A rigid and outdated system",
+        "d": "A rejection of modern communication methods"
+      },
+      "explanations": {
+        "a": "It doesn't represent complexity and confusion",
+        "b": "Morse code symbolizes the historical and modern aspects of communication",
+        "c": "Morse code is adaptable and continues to be used",
+        "d": "Morse code complements modern methods; it's not a rejection."
+      },
+   
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },   
+    {
+      "question": "What does learning to write the alphabet in Morse code require?",
+      "answers": {
+        "a": "Knowledge of foreign languages",
+        "b": "Familiarity with the Morse code system",
+        "c": "Musical talent",
+        "d": "Mastery of calligraphy"
+      },
+      "explanations": {
+        "a": "It doesn't require knowledge of foreign languages.",
+        "b": "Learning Morse code necessitates understanding its dot and dash combinations",
+        "c": "Musical talent is not a prerequisite for learning Morse code.",
+        "d": "Calligraphy skills are unrelated to Morse code proficiency."
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },   
+    {
+      "question": "In addition to radio and telegraphy, how can Morse code alphabets be visually signaled?",
+      "answers": {
+        "a": "Through handwritten scripts",
+        "b": "By flashing lights",
+        "c": "Via computer software",
+        "d": "By speaking aloud"
+      },
+      "explanations": {
+        "a": "While possible, the primary visual signaling method is different",
+        "b": "Flashing lights are a common visual signaling method for Morse code",
+        "c": "This is a modern application, but not the primary method.",
+        "d": "Morse code is primarily visual or transmitted through sound, not speaking aloud."
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is one of the most remarkable qualities of the Morse code alphabet as mentioned in the sentence?",
+      "answers": {
+        "a": "Its efficiency in saving paper",
+        "b": "Its ability to encode numbers",
+        "c": "Its capacity to transcend language barriers",
+        "d": "Its complex representation of letters"
+      },  
+      "explanations": {
+        "a": "This is not mentioned as a remarkable quality",
+        "b": "This is not the focus; the remarkable quality mentioned is different.",
+        "c": "The remarkable quality highlighted is its ability to transcend language barriers and serve as a universal mode of communication.",
+        "d": "Complexity is not mentioned as a remarkable quality."
+      },
+    
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "Advanced"
+    }, 
+    {
+      "question": "What does the design of the Morse code alphabet prioritize?",
+      "answers": {
+        "a": " Complexity and ambiguity",
+        "b": " Clarity and simplicity",
+        "c": "Decorative elements",
+        "d": "Variability and color"
+      },
+      "explanations": {
+        "a": "Complexity is not the priority",
+        "b": "The design of Morse code prioritizes clarity and simplicity, making it efficient for communication.",
+        "c": "Decorative elements are not a priority in Morse code's design.",
+        "d": "Morse code is a monochromatic system,variability and color are not part of its design "
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    }, 
+    {
+      "question": "In Morse code alphabets, what is the significance of being 'case-insensitive'?",
+      "answers": {
+        "a": "It allows for a wider range of symbols and numbers",
+        "b": "It facilitates the encoding of complex messages",
+        "c": "It means that different codes are used for uppercase and lowercase letters",
+        "d": "It simplifies communication by using the same codes for both uppercase and lowercase letters"
+      },
+      "explanations": {
+        "a": "Case-insensitivity doesn't impact the range of symbols or numbers.",
+        "b": "Case-insensitivity simplifies communication but doesn't specifically facilitate complex messages.",
+        "c": "Morse code is case-insensitive",
+        "d": "Case-insensitivity simplifies communication by using the same codes for both uppercase and lowercase letters."
+      },
+   
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
+    }, 
+    {
+      "question": "What is the underscored feature of the Morse code alphabet's elegance?",
+      "answers": {
+        "a": "Its use of color for visual signaling",
+        "b": "Its speed in transmitting messages",
+        "c": "Its adaptability to various communication mediums",
+        "d": "Its ability to create complex abstract patterns"
+      },
+      "explanations": {
+        "a": "This is incorrect. Morse code does not use color for signaling; it primarily uses dots and dashes (or short and long signals) to convey messages.",
+        "b": "This is correct. The elegance of Morse code lies in its ability to transmit messages quickly and efficiently due to its concise and systematic use of dots and dashes.",
+        "c": "While Morse code is adaptable to various communication mediums, this feature is not the primary focus of its elegance. The speed and efficiency of transmission are more central to its design.",
+        "d": "This is incorrect. Morse code does not focus on creating complex abstract patterns; it is designed for simplicity and efficiency in message transmission."
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    }, 
+    {
+      "question": "How does the Morse code alphabet demonstrate its adaptability, as mentioned in the sentence?",
+      "answers": {
+        "a": "By using multiple codes for each letter",
+        "b": "By employing a different system for each communication medium",
+        "c": "By incorporating visual art elements in its representation",
+        "d": "By being capable of transmission through various communication mediums"
+      },
+      "explanations": {
+        "a": "Morse code typically uses one code for each letter.",
+        "b": "Morse code is consistent across communication mediums.",
+        "c": "Visual art elements are not a focus of Morse code.",
+        "d": "orse code's adaptability is demonstrated by its capability to be transmitted through various communication mediums."
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
     }
   ]
 }

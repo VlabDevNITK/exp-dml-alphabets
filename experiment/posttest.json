@@ -2,38 +2,428 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In Morse code, which letter is represented by the sequence '.-'?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The sequence '.-' in Morse code corresponds to the letter 'A.'",
+        "b": "The Morse code for 'B' is '-...'.",
+        "c": "The Morse code for 'C' is '-.-.'.",
+        "d": "The Morse code for 'D' is '-..'."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "A",
+      "difficulty": "Beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In Morse code, what represents the letter 'E'?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "-...",
+        "b": "--.",
+        "c": ".",
+        "d": ".."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This option represents the letter 'B' in Morse code",
+        "b": "This option does not represent the letter 'E'",
+        "c": "The single dot represents the letter 'E' in Morse code.",
+        "d": "This option represents the letter 'I'"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In the International Morse Code, what letter is represented by '.-.'?",
+      "answers": {
+        "a": "M",
+        "b": "S",
+        "c": "R",
+        "d": "T"
+      },
+      "explanations": {
+        "a": "This option does not represent the letter 'M'",
+        "b": "This option does not represent the letter 'S' in the International Morse Code.",
+        "c": "represents the letter 'R' in the International Morse Code.",
+        "d": "This option does not represent the letter 'T' in the International Morse Code."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Which Morse code sequence corresponds to the letter 'B'?",
+      "answers": {
+        "a": "--.",
+        "b": "-...",
+        "c": "---",
+        "d": "..-."
+      },
+      "explanations": {
+        "a": "This option represents the letter 'G' in Morse code",
+        "b": "This represents the letter 'B' in Morse code.",
+        "c": "This option represents the letter 'O' in Morse code",
+        "d": "This option represents the letter 'F' in Morse code and not 'B'"
+        
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the Morse code representation for the letter 'N'?",
+      "answers": {
+        "a": "-.",
+        "b": "-..",
+        "c": "--",
+        "d": "..."
+      },
+      "explanations": {
+        "a": "Correct. '-.' represents the letter 'N' in Morse code.",
+        "b": "This option represents the letter 'D' in Morse code",
+        "c": "This option represents the letter 'M' in Morse code",
+        "d": "This option represents the letter 'S' in Morse code"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In Morse code, what character is represented by '-.-.'?",
+      "answers": {
+        "a": "C",
+        "b": "D",
+        "c": "E",
+        "d": "F"
+      },
+      "explanations": {
+        "a": "'-.-.' represents the letter 'C' in Morse code.",
+        "b": "This option does not represent the letter 'C' in Morse code",
+        "c": "This option does not represent the letter 'C' in Morse code",
+        "d": "This option does not represent the letter 'C' in Morse code"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In the International Morse Code, what is the representation for the letter 'Z'?",
+      "answers": {
+        "a": "--",
+        "b": "--..",
+        "c": "--.-",
+        "d": "-.--"
+      },
+      "explanations": {
+        "a": "This option does not represent the letter 'Z' in the International Morse Code.",
+        "b": "'--..' represents the letter 'Z' in the International Morse Code.",
+        "c": "This option does not represent the letter 'Z'.",
+        "d": "This option does not represent the letter 'Z'."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which Morse code representation corresponds to the letter 'V'?",
+      "answers": {
+        "a": "...-",
+        "b": "--.",
+        "c": "...-.",
+        "d": "-..."
+      },
+      "explanations": {
+        "a": "This option '...-'   represent the letter 'V' in Morse code.",
+        "b": "This option does not represent the letter 'V.'",
+        "c": "this does not represents the letter 'V' in Morse code.",
+        "d": "This option represents the letter 'B' in Morse code."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In Morse code, which letter is represented by the sequence '.--.'?",
+      "answers": {
+        "a": "M",
+        "b": "S",
+        "c": "P",
+        "d": "R"
+      },
+      "explanations": {
+        "a": "This option does not represent the letter 'M' in Morse code.",
+        "b": "This option does not represent the letter 'S.'",
+        "c": "'.--.' represents the letter 'P' in Morse code.",
+        "d": "This option does not represent the letter 'R.'"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": " What Morse code sequence corresponds to the letter 'J'?",
+      "answers": {
+        "a": "...",
+        "b": "--.",
+        "c": "-.-.",
+        "d": ".---"
+      },
+      "explanations": {
+        "a": "This option does not represent the letter 'J' in Morse code.",
+        "b": "'--.' represents the letter 'J' in Morse code.",
+        "c": "This option does not represent the letter 'J'.",
+        "d": "This option does not represent the letter 'J'."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": " In Morse code, what character is represented by '....'?",
+      "answers": {
+        "a": "H",
+        "b": "E",
+        "c": "S",
+        "d": "I"
+      },
+      "explanations": {
+        "a": "'....' represents the letter 'H' in Morse code.",
+        "b": "This option does not represent the letter 'H'.",
+        "c": "This option does not represent the letter 'H'.",
+        "d": "This option does not represent the letter 'H'."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which Morse code representation corresponds to the letter 'X'?",
+      "answers": {
+        "a": "-..-",
+        "b": "--..",
+        "c": ".--",
+        "d": "-..."
+      },
+      "explanations": {
+        "a": "'-..-' represents the letter 'X' in Morse code.",
+        "b": "This option does not represent the letter 'X'.",
+        "c": "This option does not represent the letter 'X'.",
+        "d": "This option does not represent the letter 'X'."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which Morse code representation corresponds to the letter 'T'?",
+      "answers": {
+        "a": "--.-",
+        "b": "-...",
+        "c": "..-",
+        "d": "-"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which Morse code representation corresponds to the letter 'Y'?",
+      "answers": {
+        "a": "-.--",
+        "b": "--.-",
+        "c": "-.-",
+        "d": "-.--."
+      },
+      "explanations": {
+        "a": "'-.--' represents the letter 'Y' in Morse code.",
+        "b": "This option does not represent the letter 'Y' in Morse code.",
+        "c": "This option does not represent the letter 'Y' in Morse code.",
+        "d": "This option does not represent the letter 'Y' in Morse code."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What Morse code sequence corresponds to the letter 'F'?",
+      "answers": {
+        "a": "..-.",
+        "b": "..-",
+        "c": "..--",
+        "d": "...-."
+      },
+      "explanations": {
+        "a": "'..-.' represents the letter 'F' in Morse code.",
+        "b": "This option does not represent the letter 'F.'",
+        "c": "This option does not represent the letter 'F.'",
+        "d": "This option does not represent the letter 'F.'"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In Morse code, which letter is represented by the sequence '..-'?",
+      "answers": {
+        "a": "P",
+        "b": "V",
+        "c": "U",
+        "d": "W"
+      },
+      "explanations": {
+        "a": "This option does not represent the letter 'U' in Morse code.",
+        "b": "This option does not represent the letter 'U.'",
+        "c": "'..-' represents the letter 'U' in Morse code.",
+        "d": "This option does not represent the letter 'U.'"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Which Morse code representation corresponds to the letter 'D'?",
+      "answers": {
+        "a": ".-..",
+        "b": "..",
+        "c": "-..",
+        "d": "--."
+      },
+      "explanations": {
+        "a": "This option does not represent the letter 'D' in Morse code.",
+        "b": "This option does not represent the letter 'D.'",
+        "c": "'-..' represents the letter 'D' in Morse code.",
+        "d": "This option represents the letter 'G' in Morse code and not 'D.'"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse code for the combination 'SOS'?",
+      "answers": {
+        "a": "... --- ...",
+        "b": "... --- --",
+        "c": "... -- ...",
+        "d": "... --- .--"
+      },
+      "explanations": {
+        "a": "This is correct. 'SOS' in Morse code is '... --- ...'.",
+        "b": "This is incorrect. 'SOS' is not '... --- --'.",
+        "c": "This is incorrect. 'SOS' does not have '--' in the middle.",
+        "d": "This is incorrect. 'SOS' does not end with '.--'."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": " In the International Morse Code, what character is represented by '--.-'?",
+      "answers": {
+        "a": "J",
+        "b": "Q",
+        "c": "Z",
+        "d": "V"
+      },
+      "explanations": {
+        "a": "This option represents the letter 'J' in the International Morse Code, not 'Q.'",
+        "b": "'--.-' represents the letter 'Q' in the International Morse Code.",
+        "c": "This option represents the letter 'Z' in the International Morse Code, not 'Q.'",
+        "d": "This option does not represent the letter 'Q.'"
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What Morse code sequence corresponds to the letter 'K'?",
+      "answers": {
+        "a": "-.-",
+        "b": "..-",
+        "c": "-..",
+        "d": "-.--"
+      },
+      "explanations": {
+        "a": "'-.-' represents the letter 'K' in Morse code.",
+        "b": "This option does not represent the letter 'K.'",
+        "c": "This option represents the letter 'X' in Morse code, not 'K.'",
+        "d": "This option does not represent the letter 'K.'"
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In the International Morse Code, what character is represented by '.-..'?",
+      "answers": {
+        "a": "I",
+        "b": "Q",
+        "c": "L",
+        "d": "V"
+      },
+      "explanations": {
+        "a": "This option represents the letter 'I' in the International Morse Code, not 'L.'",
+        "b": "This option represents the letter 'Q' in the International Morse Code, not 'L.'",
+        "c": "'.-..' represents the letter 'L' in the International Morse Code.",
+        "d": "This option represents the letter 'V'in the International Morse Code, not 'L.'"
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse code for the combination 'SOS'?",
+      "answers": {
+        "a": "... --- ...",
+        "b": "... --- --",
+        "c": "... -- ...",
+        "d": "... --- .--"
+      },
+      "explanations": {
+        "a": "This is correct. 'SOS' in Morse code is '... --- ...'.",
+        "b": "This is incorrect. 'SOS' is not '... --- --'.",
+        "c": "This is incorrect. 'SOS' does not have '--' in the middle.",
+        "d": "This is incorrect. 'SOS' does not end with '.--'."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What word is represented by the Morse code sequence '.... ..'?",
+      "answers": {
+        "a": "HI",
+        "b": "HELLO",
+        "c": "HEY",
+        "d": "HI THERE"
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "a": "This is correct. '.... ..' represents 'HI' in Morse code.",
+        "b": "This is incorrect. '.... ..' is not 'HELLO'.",
+        "c": "This is incorrect. '.... ..' is not 'HEY'.",
+        "d": "This is incorrect. '.... ..' is not 'HI THERE'."
+      }
+    },
+    {
+      "question": "What is the Morse code sequence for 'HELLO'?",
+      "answers": {
+        "a": ".... . .-.. .-.. ---",
+        "b": ".... . .-.. .-.. ---",
+        "c": ".... . .-.. .-.. --- -",
+        "d": ".... . .-.. .-.. --"
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "a": "This is correct. 'HELLO' in Morse code is '.... . .-.. .-.. ---'.",
+        "b": "This is the same as option 'a' and is correct. 'HELLO' is '.... . .-.. .-.. ---'.",
+        "c": "This is incorrect. 'HELLO' does not end with a '-'.",
+        "d": "This is incorrect. 'HELLO' does not end with '--'."
+      }
+    },
+    {
+      "question": "How is 'GOOD' represented in Morse code?",
+      "answers": {
+        "a": "--. --- --- -..",
+        "b": "--. --- --- --.",
+        "c": "--. --- --- -",
+        "d": "--. --- --- .-.."
+      },
+      "correct_answer": "a",
+      "explanations": {
+        "a": "This is correct. 'GOOD' in Morse code is '--. --- --- -..'.",
+        "b": "This is incorrect. 'GOOD' does not end with '--.'.",
+        "c": "This is incorrect. 'GOOD' ends with '-..', not '-'.",
+        "d": "This is incorrect. 'GOOD' does not include '.-..'."
+      }
     }
+
   ]
 }
