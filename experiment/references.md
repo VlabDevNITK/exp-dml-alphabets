@@ -1,5 +1,4 @@
 ### References
-
 <table style="text-align: justify;">
 <tr style="background-color: transparent;">
   <th>References</th>
