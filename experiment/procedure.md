@@ -1,7 +1,7 @@
 ### These procedure steps will be followed on the simulator  
 1. Open the Alphabets simulation and go through the Objective and Description, then click the 'NEXT' button in the bottom right corner.
 
-![Image 1](images/firstpage.png)
+![Image 1](../images/firstpage.png)
 
 2.Enter any letter (A to Z) and click 'Play' to generate its Morse code. Use 'Hint to remember' to make it easier to remember the morse code.
 
